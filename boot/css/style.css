@@ -1,0 +1,361 @@
+body{
+    background: url('..image/background') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+div.loginheader{
+    text-align: center;
+    
+}
+div.loginheader{
+    margin-bottom: 60px;
+}
+div.loginheader h1{
+    font-size: 60px;
+    color: #7073a5;
+    padding:0%;
+}
+div.loginheader h3{
+    color:black;
+    font-size: 50px;
+    
+    margin: 0px;
+}
+div.loginheader h3:after{
+    content:'';
+    display: block;
+    height:5px;
+    background: #7073a5;
+    width: 62%;
+    margin:0 auto;
+
+}
+div.loginbody form{
+    margin: 0 auto;
+    width: 450px;
+    background: rgba(0,0,0,0,5);
+    padding: 50px ;
+    border:2px solid black;
+    border-radius: 8px;
+}
+div.logininputcontainer{
+    margin-top:20px;
+}
+div.logininputcontainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+div.logininputcontainer input{
+    height: 26px;
+    width: 80%;
+    border:2px solid black;
+    font-size: 10px;
+    padding: 4px;
+    text-align: center;
+
+
+}
+div.loginbuttoncontainer{
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 60px;
+    
+}
+div.loginbuttoncontainer button{
+    font-size: 16px;
+    padding: 10px 20px ;
+    background: #7073a5;
+    border:none;
+    color:white;
+
+
+}
+
+.wrapper{
+    display:flex;
+    position:relative;
+    
+  }
+  .wrapper .sidebar{
+    position:fixed;
+    width: 12%;
+    height:100%;
+    background-color:#ffdae3;
+    padding:30px 0;
+  }
+  .wrapper .sidebar h2{
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .wrapper .sidebar ul li{
+    padding:15px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(225,225,225,0.05);
+  }
+  .wrapper .sidebar ul li a{
+    color:#f685a2;
+    display:block;
+  }
+  .wrapper .sidebar ul li:hover{
+    background-color:#f685a2;
+  }
+  .wrapper .sidebar ul li:hover a{
+    color: white;
+  }
+  
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 20px;
+     /* ajustez la valeur selon vos besoins */
+    height: auto;
+
+
+  }
+  .error{
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+
+
+
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 87%;
+  height:100%;
+  margin-left: 13%;
+  overflow: auto;
+  background-size:cover;
+  
+  
+}
+
+.btn_add {
+  width: fit-content;
+  margin-bottom: 20px; /* Augmenter cet espacement pour un meilleur alignement */
+  background-color: #f685a2;
+  padding: 5px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center; /* Correction de la valeur incorrecte */
+  border-radius: 60px;
+
+  /* Positionnement en bas de la page */
+  position: absolute;
+  bottom: -400px;
+  left: 50%; /* Centrer horizontalement */
+  transform: translateX(-50%);
+}
+
+.btn_add img {
+  margin-right: 5px;
+  margin-left: auto;
+  margin-bottom: auto;
+  height: 20px;
+}
+
+/*tableau*/
+/*tableau*/
+table{
+  width:100%;
+  max-width: 80px
+}
+
+
+th {
+  font-size: 25px;
+  border-bottom: 3px solid #ffdae3;
+  padding: 5px 20px;
+  font-weight: 500; /* Correction de la propriété incorrecte */
+
+  /* Centrer horizontalement le contenu des cellules d'en-tête */
+  text-align: center;
+}
+
+/* Aligner le tableau au centre de son conteneur */
+.container1 {
+  position: absolute; /* ou "relative" en fonction de la disposition souhaitée */
+  top: 20%; /* ajustez la valeur selon votre besoin */
+  left: 50%; /* ajustez la valeur selon votre besoin */
+  transform: translate(-50%, -50%);
+  
+}
+.titre {
+ 
+  top: 90%;
+  left: 90%;
+  
+
+}
+
+img {
+  height: 25px;
+}
+td {
+  font-weight: 400;
+  padding: 5px 30px;
+  font-size: 14px;
+
+}
+tr:nth-child(2n){
+  background-color: #f6f8f8;
+
+}
+tr:nth-child(2n) td{
+  border-bottom:  1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+}
+.form {
+  position: absolute; /* ou "relative" en fonction de la disposition souhaitée */
+  top: 50%; /* ajustez la valeur selon votre besoin */
+  left: 50%; /* ajustez la valeur selon votre besoin */
+  transform: translate(-50%, -50%);
+  background-color: #fefefe;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 60px;
+}
+.form form {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+
+}
+.back_btn{
+  width: fit-content;
+  margin-bottom: 20px;
+  background-color: #7073a5;
+  padding: 5px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: 0;
+  border-radius: 60px;
+}
+.back_btn img {
+  background-color: #7073a5;
+  text-decoration: 0;
+  display: flex;
+  align-items: center;
+
+}
+.back_btn_img {
+  height: 16px;
+  margin-right: 5px;
+
+
+}
+h2{
+
+  margin: 10px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+.erreur_message {
+  color: red;
+  font-size: 12px;
+  
+
+
+}
+label{
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+input{
+  padding: 5px;
+  border: 1px solid rgb(171, 191, 233);
+  outline: 0;
+  margin-top: 2px;
+
+}
+input:focus{
+  border: 1px solid rgb(157, 170, 190);
+}
+input[type="submit"]{
+  margin-top: 25px;
+  background-color: #7073a5;
+  border: 1px solid rgb(133, 150, 204);
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 60px;
+}
+
+.sub-menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-menu li {
+  margin-left: 10px;
+}
+
+li:hover .sub-menu {
+  display: block;
+}
+.btn_retour{
+  position: absolute;
+  color: #f6f8f8;
+  left: 1%;
+  
+
+
+
+}
+
+
+    /* Vous pouvez utiliser une classe ou un ID pour cibler spécifiquement ce bouton si nécessaire */
+   
+    .btn-primary1 {
+      background-color: #7073a5; /* Couleur de fond */
+      color: #fff; /* Couleur du texte */
+    }
+    .btn-primary1 {
+      position: relative; /* Utilisez la position relative pour permettre le positionnement par rapport à sa position d'origine */
+      left: 1030px; /* Ajustez la valeur selon la quantité de décalage souhaitée vers la droite */
+    }
+    .float-right {
+      text-align: right; /* Alignez le contenu du div à droite */
+    }
+     /* Bouton d'export */
+     .btn-success1 {
+      background-color: #7073a5; /* Couleur de fond */
+      color: #fff; /* Couleur du texte */
+      margin-left: 750px;
+    }
+    
+    /* Bouton de génération PDF */
+    .btn-primary3 {
+      background-color: #7073a5; /* Couleur de fond */
+      color: #fff; /* Couleur du texte */
+    }
+    
+    /* Bouton d'import */
+    .btn-primary4 {
+      background-color:#7073a5; /* Couleur de fond */
+      color: #fff; /* Couleur du texte */
+    }
+    /* Sélectionnez la classe .loginheader où se trouve votre logo */
